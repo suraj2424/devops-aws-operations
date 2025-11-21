@@ -1,0 +1,1 @@
+*/5 * * * * /usr/local/bin/system_report.sh >> /var/log/system_report.log 2>&1
