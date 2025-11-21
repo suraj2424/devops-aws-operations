@@ -1,7 +1,6 @@
 # DevOps Assignment
 
 This repository contains my completed DevOps assignment, covering EC2 setup, web service deployment, automation using Bash and Cron, AWS CloudWatch integration, and final documentation.
-
 ---
 
 ## Part 1: Environment Setup
@@ -19,7 +18,7 @@ This repository contains my completed DevOps assignment, covering EC2 setup, web
   - `devops_intern` entry in `/etc/passwd`  
   - Output of `sudo whoami` executed by `devops_intern`
 
-Screenshots of this part are in the `Part I` directory._
+Screenshots of this part are in the `Part I` directory.
 ---
 
 ## Part 2: Simple Web Service Setup
@@ -36,7 +35,7 @@ Screenshots of this part are in the `Part I` directory._
 ### Deliverables
 - Screenshot of the webpage accessed through the instance's **public IP**.
 
-Screenshots of this part are in the `Part II` directory._
+Screenshots of this part are in the `Part II` directory.
 ---
 
 ## Part 3: Monitoring Script
@@ -60,7 +59,7 @@ Created a cron job to run the script every **5 minutes**, appending output to: `
 ### Deliverables
 - Screenshot of log file after at least **two runs**.
 
-Screenshots of this part are in the `Part III` directory._
+Screenshots of this part are in the `Part III` directory.
 
 ---
 
@@ -74,8 +73,6 @@ Screenshots of this part are in the `Part III` directory._
 
 
 ### AWS CLI Commands Used (Deliverable 1)
-
-Screenshots of this part are in the `Part IV` directory._
 
 - Create Log Group:
 ```bash
@@ -114,7 +111,7 @@ aws logs put-log-events \
 Screenshots of this part are in the `Part IV` directory.
 ---
 
-## 📚 How to Reproduce This Environment
+## How to Reproduce This Environment
 
 1. Launch an Ubuntu EC2 instance (Free Tier).
 2. Create a user, configure sudo, update hostname.
@@ -128,5 +125,5 @@ Screenshots of this part are in the `Part IV` directory.
 
 ---
 
-## ✔️ Completed By
+## Completed By
 **Suraj Suryawanshi**
